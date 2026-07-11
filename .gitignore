@@ -1,0 +1,33 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Extension packages and signing keys
+*.crx
+*.pem
+*.zip
+
+# Environment and local settings
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and tooling caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vite/
+.cache/
+coverage/
+
+# Local project references (not part of the extension source)
+docs/Chrome Presentation Toolkit PRD.md
+docs/reference-images/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
