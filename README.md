@@ -34,3 +34,7 @@ Build the extension, then zip the *contents* of `dist` (not the `dist` folder it
 - Uses only `windows`, `activeTab`, and `storage` permissions. Screenshot downloads are started from the extension popup, so the `downloads` permission is not needed.
 
 No analytics, telemetry, host permissions, or network requests are included.
+
+## License
+
+Licensed under the [MIT License](LICENSE).
